@@ -1,0 +1,5 @@
+*
+!.gitignore
+!debian/
+!debian/**
+debian/libzonemaster-cli-perl.debhelper.log
