@@ -1,0 +1,5 @@
+libzonemaster-cli-perl (1.1.2-iis1) unstable; urgency=low
+
+  * Initial Debian packaging.
+
+ -- Mattias Päivärinta <mattias.paivarinta@iis.se>  Mon, 30 Apr 2018 09:38:49 +0200

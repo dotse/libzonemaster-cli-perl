@@ -1,0 +1,26 @@
+Source: libzonemaster-cli-perl
+Section: perl
+Priority: optional
+Maintainer: Mattias Päivärinta <mattias.paivarinta@iis.se>
+Build-Depends: debhelper (>= 8)
+Build-Depends-Indep:
+ libjson-xs-perl,
+ libmoosex-getopt-perl,
+ libtext-reflow-perl,
+ libzonemaster-engine-perl,
+ perl
+Standards-Version: 3.9.6
+Homepage: https://metacpan.org/release/Zonemaster-CLI
+
+Package: libzonemaster-cli-perl
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends},
+ libjson-xs-perl,
+ libmoosex-getopt-perl,
+ libtext-reflow-perl,
+ libzonemaster-engine-perl,
+ perl
+Description: run Zonemaster tests from the command line
+ (no description was found)
+ .
+ This description was automagically extracted from the module by dh-make-perl.
